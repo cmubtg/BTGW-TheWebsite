@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Business Technology Group</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <!-- FIRST HEADING -->
+  <!-- <div class="row">
+    <div class="col s2 offset-s1">
+      <img src="images/btglogo.png" alt="BTG Logo" class="circle responsive-img">
+    </div>
+    <div class="col s8">
+      <div class="container red darken-3">
+        <br>
+        <h3 class="header white-text">business technology group</h3>
+        <br>
+      </div>
+    </div> -->
+
+    <nav><!--mav bar copied from Materialize CSS Website-->
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Business Technology Group</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- NAVIGATION-->
+    <!-- <div class="row">
+      <div class="col s1 offset-s1">
+        <div class="container">
+          <h5 class="header left black-text"> <a href="/calendar" style="color:black"> calendar</a> </h5>
+        </div>
+      </div>
+      <div class="col s1">
+        <div class="container">
+          <h5 class="header left black-text"> <a href="/projects" style="color:black"> projects </a></h5>
+        </div>
+      </div>
+      <div class="col s1">
+        <div class="container">
+          <h5 class="header left black-text"> <a href="/team" style="color:black"> team </a></h5>
+        </div>
+      </div>
+      <div class="col s1">
+        <div class="container">
+          <h5 class="header left black-text"> <a href="/about" style="color:black"> about </a></h5>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- IMAGE BANNER -->
+    <div class="section">
+      <div class="col s12">
+        <img class="responsive-img" src="images/index.jpg" alt="Tartan Banner" style="padding: 0 0 2em">
+      </div>
+    </div>
+
+
+
+    <!-- ABOUT US -->
+    <div class="col s4 offset-s4">
+      <div class="container red darken-3">
+        <br>
+        <h5 class="header center white-text">about us</h5>
+        <br>
+      </div>
+    </div>
+    <div class="col s8 offset-s2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in odio ante. Aenean fringilla elit eget mi
+        posuere eleifend. In urna lectus, malesuada nec tortor porttitor, rutrum sollicitudin neque. Quisque ipsum sem,
+        commodo iaculis gravida sed, consequat id justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce efficitur,
+        dui eget auctor ornare, nisi diam scelerisque arcu, ac elementum quam lorem eu elit. Phasellus libero nisl,
+        bibendum eu justo sed, pharetra commodo turpis. Sed non libero posuere ligula porta volutpat eu in justo.
+        Phasellus bibendum risus sed varius finibus. Fusce elementum lectus eu arcu blandit, quis pulvinar lectus
+        suscipit. Suspendisse potenti. Duis ultrices ullamcorper nibh, a consequat augue gravida eu. Suspendisse et
+        mauris et dui commodo varius in sit amet nisi.
+      </p>
+    </div>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
