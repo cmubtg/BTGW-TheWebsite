@@ -47,6 +47,34 @@ li {
     margin-top: 20vh;
 }
 
+/* Title of website */
+
+.text .content {
+    display: inline;
+}
+
+.text .dash {
+    display: inline-block;
+    height: 8px;
+    width: 35px;
+    background-color: #ff2f44;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .subtitle {
     color: #333;
     font-family: "Undefined Medium";
@@ -87,7 +115,7 @@ li {
 }
 
 .cmu-footer-image {
-    width: 12rem;
+    width: 25rem;
 }
 
 .fb-footer-image {

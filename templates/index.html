@@ -20,28 +20,32 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="../static/css/style.css">
     <link rel="stylesheet" href="../static/css/stars.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<a href="#" class="d-block px-3 py-2 pt-0 mt-0 text-center text-bold text-white bg-color">Recruiting update: Check your
-    email for BTG Analytics interview times!</a>
+<a href="#" class="d-block px-3 py-2 pt-0 mt-0 text-center text-bold text-white bg-color"><b>Recruiting update:</b>
+    Check your email for BTG Analytics interview times!
+</a>
 
 <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-<body>
+<body data-aos="fade">
     <nav class="navbar bg-black">
         <a class="navbar-brand" href="index.html">
             <img src="../static/images/BTG Logo Color Isolate.png" width=50px class="" alt="">
         </a>
         <div class="my-2 my-md-0 mr-md-3">
-            <a class="text-muted" href="team.html">Executive team</a>
+            <a class="text-muted" href="team.html">About</a>
         </div>
     </nav>
     <div class="container mt-4">
         <div class="row main-image ">
-            <div class="col-md-10">
-                <h1 class="display-3 main-title" id="title">We build the bleeding&nbsp;edge</h1>
+            <div class="col-md-10 text">
+                <!-- https://codepen.io/rebecca-m-ller/pen/mvvXdp?page=1& -->
+                <h1 class="display-3 main-title content" id="title">We build the<br></h1>
+                <div class='dash'></div>
             </div>
         </div>
         <div class="row text-white">
@@ -74,7 +78,9 @@
                         <li>Keep members up-to-date with weekly newsletters regarding all things technology</li>
                     </ul>
 
-                    <p>BTG, in addition to its core group, offers two specialized divisions: BTG Web and BTG Analytics. We keep admission into these divisions competitive to ensure we may best execute our mission, but value passion for business technology more than initial aptitude.</p>
+                    <p>BTG, in addition to its core group, offers two specialized divisions: BTG Web and BTG Analytics.
+                        We keep admission into these divisions competitive to ensure we may best execute our mission,
+                        but value passion for business technology more than initial aptitude.</p>
 
                     <p>We hope you are just as excited as we are for our spring 2019 semester. Stay tuned for more
                         information!</p>
@@ -83,15 +89,11 @@
         </div>
     </div>
 
-    <div class="container mt-5 pt-5">
+    <div class="container main-image bg-black">
         <footer class="pt-4 my-md-5 pt-md-5">
             <div class="row">
                 <div class="col-12 col-md">
                     <img class="mb-4" src="../static/images/BTG Logo Color Isolate.png" alt="" width="30">
-                    <br>
-                    <a href="https://cmu.edu"><img src="../static/images/CMU_Logo_Horiz_White.png" class="cmu-footer-image mb-2"
-                            alt=""></a>
-                    <small class="d-block mb-3 text-muted">Carnegie Mellon University Business Technology Group 2019</small>
                     <br>
                     <a href="https://facebook.com/cmubtg"><img src="../static/images/FindUs-FB-RGB-Wht.svg" class="fb-footer-image hidden-sm-up"
                             alt=""></a>
@@ -117,14 +119,29 @@
                 </div>
             </div>
         </footer>
+        <div class="row my-md-5 pt-md-5 pt-4 pb-md-5 border-top">
+            <div class="col-12 col-md">
+                <p class="text-white font-weight-bold">We build the cutting edge</p>
+                <p class="mb-3 text-muted">CMU Business Technology Group 2019</p>
+                <br>
+                <a href="https://cmu.edu"><img src="../static/images/CMU_Logo_Horiz_White.png" class="cmu-footer-image mb-5"
+                        alt=""></a>
+            </div>
+        </div>
     </div>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="../static/js/text.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 
 </html>
