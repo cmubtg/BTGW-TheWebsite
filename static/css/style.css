@@ -32,7 +32,10 @@ body {
 
 p,
 li {
-    font-size: 1.2em;
+    font-size: 1em;
+    letter-spacing: 0.006em;
+    opacity: 0.8;
+    line-height: 1.4em;
 }
 
 .lead {
@@ -89,8 +92,4 @@ li {
 
 .fb-footer-image {
     width: 6rem;
-}
-
-footer {
-    font-size: 80%;
 }
