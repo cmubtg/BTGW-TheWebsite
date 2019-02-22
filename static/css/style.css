@@ -15,12 +15,19 @@ html {
     background-color: #ff2f44;
 }
 
+.container {
+    max-width: 960px;
+}
+
+.bg-color {
+    background-color: #ff2f44;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: black;
-    color: rgba(255, 255, 255, 0.9);
     background: radial-gradient(ellipse at bottom, #142538 0%, #000000 100%);
-    height: auto;
+    height: 100%;
 }
 
 p,
@@ -29,15 +36,22 @@ li {
 }
 
 .lead {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .main-image {
     margin-top: 20vh;
 }
 
+.subtitle {
+    color: #333;
+    font-family: "Undefined Medium";
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
 .main-title {
-    font-weight: 900;
     color: #ff2f44;
     font-family: "Undefined Medium";
     text-transform: uppercase;
@@ -70,9 +84,13 @@ li {
 }
 
 .cmu-footer-image {
-    width: 18rem;
+    width: 12rem;
 }
 
 .fb-footer-image {
-    width: 8rem;
+    width: 6rem;
+}
+
+footer {
+    font-size: 80%;
 }
