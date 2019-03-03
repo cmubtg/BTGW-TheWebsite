@@ -116,8 +116,19 @@ li {
 
 .cmu-footer-image {
     width: 25rem;
+    max-width: 100%;
 }
 
 .fb-footer-image {
     width: 6rem;
+}
+
+.profilePic {
+    text-align: center;
+}
+
+.profilePic img {
+    height: 250px;
+    padding: 50px 100px 0 100px;
+    width: auto;
 }
