@@ -136,3 +136,7 @@ li {
 .bg-accent {
     background-color: rgb(219, 216, 216);
 }
+
+.project-card{
+    width: 20rem;
+}
