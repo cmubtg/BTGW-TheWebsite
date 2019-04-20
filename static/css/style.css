@@ -96,8 +96,8 @@ li {
 
 .navbar {
     padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 10px;
 }
 
@@ -165,4 +165,10 @@ li {
 
 .col.s12 > #mc-embedded-subscribe {
    width: 40%;
+}
+
+@media (max-width: 640px) {
+  .bottom-space-mobile {
+    padding-bottom: 20px;
+  }
 }

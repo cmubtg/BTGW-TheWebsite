@@ -70,10 +70,10 @@
                     interdisciplinary
                     thinkers, dedicated
                     to making
-                    applied technology skills accessible to everyone on campus.
+                    applied technology skills accessible to everyone on campus.&nbsp;
                     <a href="#" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true"
-                        aria-controls="collapseExample">
-                        <span style="color:#ff2f44;">&nbsp;more</span>
+                        aria-controls="collapseExample" onclick="changeText()">
+                        <span id="expand" style="color:#ff2f44;">more</span>
                     </a></p>
 
                 <div class="collapse" id="collapseExample">
@@ -108,7 +108,7 @@
     <div class="container main-image bg-black">
         <footer class="pt-4 my-md-5 pt-md-5">
             <div class="row">
-                <div class="col-12 col-md">
+                <div class="col-12 col-md bottom-space-mobile">
                     <img class="mb-4" src="../static/images/BTG Logo Color Isolate.png" alt="" width="30">
                     <br>
                     <a href="https://facebook.com/cmubtg"><img src="../static/images/FindUs-FB-RGB-Wht.svg" class="fb-footer-image hidden-sm-up"
@@ -117,7 +117,7 @@
                 <div class="col-6 col-md">
                     <h5 class="text-white">Web</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="team.html">Team</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
@@ -130,14 +130,13 @@
                     <h5 class="text-white">BTG</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Executive Board</a></li>
-                        <li><a class="text-muted" href="#">About</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
         <div class="row my-md-5 pt-md-5 pt-4 pb-md-5 border-top">
             <div class="col-12 col-md">
-                <p class="text-white font-weight-bold">We build the cutting edge</p>
+                <p class="text-white font-weight-bold">We build the cutting edge.</p>
                 <p class="mb-3 text-muted">CMU Business Technology Group 2019</p>
                 <br>
                 <a href="https://cmu.edu"><img src="../static/images/CMU_Logo_Horiz_White.png" class="cmu-footer-image mb-5"
@@ -151,6 +150,21 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+      function changeText()
+      {
+          if (document.getElementById('expand').innerHTML == "more") {
+            document.getElementById('expand').innerHTML = 'less';
+          } else {
+            document.getElementById('expand').innerHTML = 'more';
+          }
+      }
+
+      if (navigator.userAgent.match(/Mobile/)) {
+          document.getElementById('mc-embedded-subscribe').value = 'Join List';
+      }
+    </script>
 
     <script src="../static/js/text.js"></script>
 
