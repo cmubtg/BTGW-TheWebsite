@@ -95,7 +95,10 @@ li {
 }
 
 .navbar {
-    padding: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 ::selection {
@@ -120,4 +123,27 @@ li {
 
 .fb-footer-image {
     width: 6rem;
+}
+
+#mce-EMAIL, #mc-embedded-subscribe {
+    border: 5px solid #ff2f44;
+    height: 50px;
+}
+
+#mce-EMAIL {
+  text-indent: 10px;
+}
+
+#mc-embedded-subscribe {
+    background-color: #ff2f44;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.col.s12 > #mce-EMAIL {
+   width: 60%;
+}
+
+.col.s12 > #mc-embedded-subscribe {
+   width: 40%;
 }
